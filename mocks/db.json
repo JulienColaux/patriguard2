@@ -1,0 +1,53 @@
+{
+  "proprietes": [
+    {
+      "id": 1,
+      "name": "Propriété Alpha",
+      "type": "maison",
+      "adresse": "12 Rue des Lilas, 75001 Paris",
+      "locataire": "Jean Dupont"
+    },
+    {
+      "id": 2,
+      "name": "Propriété Beta",
+      "type": "bureau",
+      "adresse": "33 Avenue des Champs-Élysées, 75008 Paris",
+      "locataire": "Société Tech Innov"
+    },
+    {
+      "id": 3,
+      "name": "Propriété Gamma",
+      "type": "appartement",
+      "adresse": "45 Rue de Rivoli, 75004 Paris",
+      "locataire": "Marie Curie"
+    },
+    {
+      "id": 4,
+      "name": "Propriété Delta",
+      "type": "maison",
+      "adresse": "89 Boulevard Saint-Germain, 75006 Paris",
+      "locataire": "Paul Martin"
+    },
+    {
+      "id": 5,
+      "name": "Propriété Epsilon",
+      "type": "bureau",
+      "adresse": "2 Place de la Bourse, 75002 Paris",
+      "locataire": "Société FinServ"
+    },
+    {
+      "id": 6,
+      "name": "Propriété Zeta",
+      "type": "appartement",
+      "adresse": "77 Rue de la Paix, 75009 Paris",
+      "locataire": "Sarah Bernard"
+    },
+    {
+      "id": 7,
+      "name": "Propriété Eta",
+      "type": "maison",
+      "adresse": "10 Rue Mouffetard, 75005 Paris",
+      "locataire": "Henri Dumas"
+    }
+  ]
+}
