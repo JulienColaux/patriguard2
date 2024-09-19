@@ -1,0 +1,57 @@
+
+
+
+
+
+<div class="pageAccueil">
+
+    <div class="image-container">
+        <img src="/images/logo-famille.png" alt="">
+    </div>
+
+    <form (ngSubmit)="onLogin()">
+
+        <div class="texte">
+            <p>Qui est-ce ?</p>
+        </div>
+
+        <div class="profils">
+            <ul class="images-selection">
+                <li (click)="selectUser(users[2].name)">
+                    <img src="{{users[2].image}}" alt="{{users[2].name}}" class="user-image">
+                </li>
+
+                <li (click)="selectUser(users[0].name)">
+                    <img src="{{users[0].image}}" alt="{{users[0].name}}" class="user-image">
+                </li>
+                
+                <li (click)="selectUser(users[3].name)">
+                    <img src="{{users[3].image}}" alt="{{users[3].name}}" class="user-image">
+                </li>
+
+                <li (click)="selectUser(users[1].name)">
+                    <img src="{{users[1].image}}" alt="{{users[1].name}}" class="user-image">
+                </li>
+                
+                
+            </ul>   
+            
+
+        </div>
+        
+
+            <div *ngIf="selectedUser !=''" class="mdp">
+                <p>{{selectedUser | uppercase}}</p>
+                <label for="password"></label>
+                <input id="password" [(ngModel)]="password" name="password" required placeholder="entrer le mot de passe">
+                
+                <button type="submit">connection</button>
+                <div *ngIf="errorMessage" class="error-message">
+                    {{ errorMessage }}
+                </div>
+            </div>
+
+        
+    </form>
+</div>
+
