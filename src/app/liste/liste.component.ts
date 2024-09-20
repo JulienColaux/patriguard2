@@ -8,6 +8,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrl: './liste.component.css'
 })
 export class ListeComponent implements OnInit{
+onSubmit($event: SubmitEvent) {
+throw new Error('Method not implemented.');
+}
   lesBatiments: any =[];
 
   constructor (private proprieteService: ProprieteService) {}
@@ -17,4 +20,6 @@ export class ListeComponent implements OnInit{
       this.lesBatiments = bati;
     })
   }
+
+
 }

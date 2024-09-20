@@ -25,7 +25,7 @@ export class LogComponent  implements OnInit{
 
   onLogin() {
     if (this.logService.login(this.selectedUser, this.password)) {
-      this.router.navigate(['/dashboard']);
+      this.router.navigate(['/list']);
     } else {
       this.errorMessage = 'Mot de passe incorrect';
     }

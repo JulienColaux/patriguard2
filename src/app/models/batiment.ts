@@ -3,5 +3,6 @@ export interface Batiment {
     name: string,
     type: string,
     adresse: string,
-    locataire: string
+    locataire: string,
+    valeur: number
 }

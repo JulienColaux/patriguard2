@@ -11,9 +11,14 @@
 }
 
 .image-container { 
-    flex: 0 0 37%; /* Prend 40% de la hauteur disponible */ display:
+    height: 40%;
+    flex: 0 0 10%; /* Prend 40% de la hauteur disponible */ display:
     flex; align-items: center; 
     justify-content: center; 
+}
+
+.image-container img{
+    height: 50%;
 }
 
 

@@ -17,8 +17,14 @@ export class ProprieteService {
   constructor(private http: HttpClient) { }
 
   getAllBati(): Observable<Batiment[]> {
-    return this.http.get<Batiment[]>(this.apiUrl)
+    return this.http.get<Batiment[]>(this.apiUrl);
   }
 
+  addBati(newObject: Batiment): Observable<Batiment>{
+    return this.http.post<Batiment>(this.apiUrl, newObject);
+  }
 
+  removeBati(id: number): Observable<Batiment> {
+    return this.http.delete<Batiment> ('${this.apiUrl}/${id}');
+  }
 }

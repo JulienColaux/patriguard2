@@ -1,0 +1,50 @@
+<div class="container">
+
+    <div class="image-container">
+        <img src="images/addhouse.png" alt="logo ajouter maison">
+    </div>
+
+    <div class="form">
+        <div class="input">
+            <p>ID &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+            <input [(ngModel)]="newBati.id">
+        </div>
+
+        <div class="input">
+            <p>Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+            <input [(ngModel)]="newBati.name">
+        </div>
+
+        <div class="input">
+            <p>Type&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</p>
+            <select [(ngModel)]="newBati.type">
+              <option value="Appartement">Appartement</option>
+              <option value="Maison">Maison</option>
+              <option value="Bureau">Bureau</option>
+            </select>
+          </div>
+          
+
+        <div class="input">
+            <p>Adresse&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</p>
+            <input [(ngModel)]="newBati.adresse">
+        </div>
+
+        <div class="input">
+            <p>Nom du locataire &nbsp;&nbsp;&nbsp; :</p>
+            <input [(ngModel)]="newBati.locataire">
+        </div>
+
+        <div class="input">
+            <p>Valeur imobilière &nbsp;&nbsp;&nbsp;:</p>
+            <input [(ngModel)]="newBati.valeur" placeholder="">
+        </div>
+
+    </div>
+    <div class="btn">
+        <button (click)="addBatiment()" id="oui" >
+            <img src="images/validation-icon.jpg" alt="">
+        </button>
+    </div>
+
+</div>

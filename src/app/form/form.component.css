@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(2, 2, 87);
+}
+
+.image-container img{
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.form input{
+    border: none;
+    border-bottom: solid 1px;
+    height: 20px;
+    width: 200px;
+    padding-top: 10px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.form select {
+    border: none;
+    border-bottom: solid 1px;
+    height: 20px;
+    width: 200px;
+    margin-top: 11px;
+}
+
+
+
+#oui{
+    background-color: transparent;
+    border: none;
+    margin-top: 30px;
+}
+
+.btn img{
+    height: 70px;
+}
+
+.btn img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

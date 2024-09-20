@@ -1,53 +1,68 @@
 {
   "proprietes": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Propriété Alpha",
-      "type": "maison",
+      "type": "Maison",
       "adresse": "12 Rue des Lilas, 75001 Paris",
-      "locataire": "Jean Dupont"
+      "locataire": "Jean Dupont",
+      "valeur": 250000
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Propriété Beta",
-      "type": "bureau",
+      "type": "Bureau",
       "adresse": "33 Avenue des Champs-Élysées, 75008 Paris",
-      "locataire": "Société Tech Innov"
+      "locataire": "Société Tech Innov",
+      "valeur": 250000
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Propriété Gamma",
-      "type": "appartement",
+      "type": "Appartement",
       "adresse": "45 Rue de Rivoli, 75004 Paris",
-      "locataire": "Marie Curie"
+      "locataire": "Marie Curie",
+      "valeur": 300000
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Propriété Delta",
-      "type": "maison",
+      "type": "Maison",
       "adresse": "89 Boulevard Saint-Germain, 75006 Paris",
-      "locataire": "Paul Martin"
+      "locataire": "Paul Martin",
+      "valeur": 100000
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Propriété Epsilon",
-      "type": "bureau",
+      "type": "Bureau",
       "adresse": "2 Place de la Bourse, 75002 Paris",
-      "locataire": "Société FinServ"
+      "locataire": "Société FinServ",
+      "valeur": 650000
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "Propriété Zeta",
-      "type": "appartement",
+      "type": "Appartement",
       "adresse": "77 Rue de la Paix, 75009 Paris",
-      "locataire": "Sarah Bernard"
+      "locataire": "Sarah Bernard",
+      "valeur": 450000
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Propriété Eta",
-      "type": "maison",
+      "type": "Maison",
       "adresse": "10 Rue Mouffetard, 75005 Paris",
-      "locataire": "Henri Dumas"
+      "locataire": "Henri Dumas",
+      "valeur": 350000
+    },
+    {
+      "id": "43",
+      "name": "Bureau du 82",
+      "type": "Bureau",
+      "adresse": "82 Rue de Sart",
+      "locataire": "Julien Colaux",
+      "valeur": "10000"
     }
   ]
 }

@@ -1,5 +1,36 @@
 
-<div *ngFor="let bati of lesBatiments">
-    <h2>{{ bati.id }}</h2>
-    <p>{{ bati.name }}</p>
+<div class="all-container">
+
+    <div *ngFor="let bati of lesBatiments" class="maison-container">
+
+       <div class="image-type">
+           <div [ngSwitch]="bati.type">
+               <div *ngSwitchCase="'Appartement'">
+                   <img src="/images/appart.png" alt="Appartement">
+                </div>
+                <div *ngSwitchCase="'Maison'">
+                    <img src="/images/maison.png" alt="Maison">
+                </div>
+                <div *ngSwitchCase="'Bureau'">
+                    <img src="/images/bureau.png" alt="Bureau">
+                </div>
+            </div> 
+        </div>
+        
+        <div class="info">
+            <div class="in-info">
+                <h3>{{ bati.name }}</h3>
+                <p style="color: green;">{{ bati.valeur | number:'1.0-0'}} €</p>
+            </div>
+            <div class="in-info-right">
+                <p><strong>Locataire : </strong>{{bati.locataire}}</p>
+                <p><strong>Adresse : </strong> {{bati.adresse}}</p>
+            </div>
+        </div>
+
+    </div>
+
+<a routerLink="/form" class="button-add">
+    <img src="/images/button+.webp" alt="Ajout d'une maison" >
+</a>
 </div>
