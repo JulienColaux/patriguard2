@@ -63,6 +63,14 @@
       "adresse": "82 Rue de Sart",
       "locataire": "Julien Colaux",
       "valeur": "10000"
+    },
+    {
+      "id": "789",
+      "name": "Grisolo 59",
+      "type": "Maison",
+      "adresse": "Pin de la legue",
+      "locataire": "Jean-Yves",
+      "valeur": "30000"
     }
   ]
 }
